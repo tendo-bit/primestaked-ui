@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased;
+  background-color: #f6f8fe;
+}
+
+.btn {
+  @apply rounded-full leading-tight font-medium text-white bg-red-500 hover:bg-red-500/75;
+}
+.btn-disabled {
+  @apply rounded-full leading-tight font-medium text-white bg-red-500/60 pointer-events-none;
+}
+.btn-secondary {
+  @apply rounded-full leading-tight font-medium bg-white hover:bg-gray-100 transition-all duration-200 ease-in-out border border-gray-border;
+}
+.btn-secondary-disabled {
+  @apply rounded-full leading-tight font-medium bg-gray-200 opacity-50 pointer-events-none;
+}
+.btn-outline {
+  @apply rounded-full leading-tight font-medium text-red-500 border-red-500 border hover:bg-red-500 hover:text-white transition-all duration-200 ease-in-out cursor-pointer;
+}
+.btn-outline-disabled {
+  @apply rounded-full leading-tight font-medium border-red-500/50 border text-off-white/30;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 100;
+  src: url(/fonts/Sailec/Sailec-Hairline.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 200;
+  src: url(/fonts/Sailec/Sailec-Thin.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 300;
+  src: url(/fonts/Sailec/Sailec-Light.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 400;
+  src: url(/fonts/Sailec/Sailec-Regular.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 500;
+  src: url(/fonts/Sailec/Sailec-Medium.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 700;
+  src: url(/fonts/Sailec/Sailec-Bold.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sailec;
+  font-weight: 900;
+  src: url(/fonts/Sailec/Sailec-Black.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 100;
+  src: url(/fonts/Inter/Inter-Thin.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 200;
+  src: url(/fonts/Inter/Inter-ExtraLight.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 300;
+  src: url(/fonts/Inter/Inter-Light.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 400;
+  src: url(/fonts/Inter/Inter-Regular.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 500;
+  src: url(/fonts/Inter/Inter-Medium.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 600;
+  src: url(/fonts/Inter/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 700;
+  src: url(/fonts/Inter/Inter-Bold.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 800;
+  src: url(/fonts/Inter/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-weight: 900;
+  src: url(/fonts/Inter/Inter-Black.ttf);
+}

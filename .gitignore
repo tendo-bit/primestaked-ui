@@ -1,0 +1,15 @@
+node_modules
+
+/.idea
+/.cache
+/functions/\[\[path\]\].js
+/functions/\[\[path\]\].js.map
+/functions/metafile.*
+/functions/version.txt
+/public/build
+.dev.vars
+.wrangler
+
+.DS_Store
+# Sentry Config File
+.sentryclirc
